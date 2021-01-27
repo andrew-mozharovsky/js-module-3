@@ -25,7 +25,9 @@ const findBestEmployee = function (employees) {
   return Object.keys(employees)[indexOfMaxValue];
 };
 
-console.log(findBestEmployee(developers));
+// console.log(findBestEmployee(developers));
+// console.log(findBestEmployee(supports));
+// console.log(findBestEmployee(sellers));
 
 /*-------------------------------------------------------------------------- */
 /*
@@ -46,3 +48,16 @@ const findAllBestEmployee = function (employees) {
 
 console.log(findAllBestEmployee(developers));
 */
+
+//[a=50,test()]
+
+const arr = [1, 2, 4, 2 ,65, 2, 57, 100]
+let total =0;
+for (const ar of arr){
+  if (ar === 2){
+   total +=1;
+  }
+  
+
+}
+console.log(total)
